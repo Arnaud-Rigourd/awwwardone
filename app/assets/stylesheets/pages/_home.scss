@@ -21,8 +21,20 @@ body {
   width: 100vw;
   background-color: black;
   overflow: hidden;
+}
 
-  h1 {
-    color: white;
+.image-track {
+  position: absolute;
+  display: flex;
+  gap: 4vmin;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+
+  & > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
   }
 }
