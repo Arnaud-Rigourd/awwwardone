@@ -46,6 +46,5 @@ export default class extends Controller {
       // Store the percentage value
       this.imageTrackTarget.dataset.prevPercentage = this.imageTrackTarget.dataset.percentage
     })
-
   }
 }
