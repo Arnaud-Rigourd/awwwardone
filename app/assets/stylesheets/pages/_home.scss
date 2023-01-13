@@ -29,12 +29,12 @@ body {
   gap: 4vmin;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%);
+  transform: translate(0, -50%);
 
   & > .image {
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
-    object-position: center;
+    object-position: 100% 50%;
   }
 }
